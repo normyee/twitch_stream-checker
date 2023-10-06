@@ -3,6 +3,7 @@ require "colorize"
 require 'rest-client'
 require "json"
 require_relative "lib/config/config.rb"
+require_relative "lib/utils/messageInfo"
 
 puts "What's your streamer name: ".green
 streamer = gets.chomp
@@ -22,10 +23,7 @@ if (response.code >= 200 && response.code < 300 )
         puts "The streamer #{streamer} is offline".red
         return
     end
-
-    puts "The streamer #{streamer} is online now ".green
-    puts "Opening stream...".yellow
-    sleep(1.5)
+    messageInfo(streamer, data["game_name"], data["title"], data["viewer_count"])
     Launchy.open(stream_url)
     return
 
