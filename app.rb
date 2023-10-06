@@ -1,3 +1,4 @@
+require "colorize"
 require_relative "./lib/StreamChecker/StreamChecker.rb"
 
 puts "What's your streamer name: ".green
