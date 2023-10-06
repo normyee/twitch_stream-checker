@@ -3,15 +3,15 @@ require "rest-client"
 require "json"
 
 class Config
-  @client_id = ENV["CLIENT_ID"]
-  @client_secret = ENV["CLIENT_SECRET"]
+  @CLIENT_ID = ENV["CLIENT_ID"]
+  @CLIENT_SECRET = ENV["CLIENT_SECRET"]
 
   def self.client_id
-    @client_id
+    @CLIENT_ID
   end
 
   def self.client_secret
-    @client_secret
+    @CLIENT_SECRET
   end
 
   def self.get_access_token
