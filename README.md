@@ -29,8 +29,6 @@ $ bundle install
 
 
 ## Documentation
-For more information about the Twitch API and the available parameters, you can refer to the official Twitch documentation.
-
-This project is a great way to check if your favorite streamers are currently live streaming on Twitch and to enjoy their broadcasts to the fullest.
+For more information about the <a href="https://dev.twitch.tv/docs/api/reference/#get-streams">Twitch API<a/> and the available parameters, you can refer to the official Twitch documentation.
 
 Have fun watching live streams! 😊
