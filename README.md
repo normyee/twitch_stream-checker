@@ -3,7 +3,6 @@
 This application consumes the Twitch API to check if a streamer is currently live streaming and, if so, automatically opens their live stream. It uses the `user_login` parameter of the Twitch API to fetch information about the desired streamer. Also, this project was developed following best programming practices to ensure that the code is clean, organized, and easy to read. Some of the adopted best practices include:
 
 * Dividing the code into functions and modules for ease of maintenance.
-* Using explanatory comments to document the code.
 * Proper error and exception handling for a more robust user experience.
 * Clear and understandable organization of variables and constants.
 * Using descriptive variable and function naming to enhance code readability.
